@@ -1,0 +1,5 @@
+{
+  "build_command": "cd frontend && npm install && npm run build",
+  "start_command": "cd backend && node server.js",
+  "node_version": "20"
+}

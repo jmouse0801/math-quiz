@@ -1,0 +1,9 @@
+{
+  "name": "math-quiz-system",
+  "version": "1.0.0",
+  "description": "高中數學題庫系統",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd backend && node server.js"
+  }
+}
