@@ -2,10 +2,18 @@
   "name": "math-quiz-system",
   "version": "1.0.0",
   "description": "高中數學題庫系統",
+  "main": "backend/server.js",
   "scripts": {
-    "postinstall": "cd backend && npm install && cd ../frontend && npm install",
-    "build": "cd frontend && npm run build",
-    "start": "cd backend && node server.js"
+    "postinstall": "cd frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "dev": "cd backend && npm run dev"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2"
   },
   "engines": {
     "node": ">=18"
